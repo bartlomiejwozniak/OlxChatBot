@@ -10,8 +10,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/OlxChatBot$main.coverage" NAME="main Coverage Results" MODIFIED="1532378803454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../OlxChatBot/venv/application" />
+    <SUITE FILE_PATH="coverage/OlxChatBot$main.coverage" NAME="main Coverage Results" MODIFIED="1532449464805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../OlxChatBot/venv/application" />
     <SUITE FILE_PATH="coverage/OlxChatBot$.coverage" NAME=" Coverage Results" MODIFIED="1532412930120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OlxChatBot$main_queue.coverage" NAME="main_queue Coverage Results" MODIFIED="1532458346061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../OlxChatBot/venv/application" />
     <SUITE FILE_PATH="coverage/OlxChatBot$AdDownloder.coverage" NAME="AdDownloder Coverage Results" MODIFIED="1532210628371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../OlxChatBot/venv/Adverts" />
     <SUITE FILE_PATH="coverage/OlxChatBot$olx_api_client.coverage" NAME="olx_api_client Coverage Results" MODIFIED="1532298858846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../OlxChatBot/venv/application" />
   </component>
@@ -24,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/../OlxChatBot/venv/application/ad_downloader.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -32,13 +33,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../OlxChatBot/venv/application/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state>
+              <caret selection-end-line="2" selection-end-column="20" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_queue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../OlxChatBot/venv/application/main_queue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="586">
+              <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,8 +65,8 @@
       <file leaf-file-name="ad_data_layer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../OlxChatBot/venv/application/ad_data_layer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="65" column="63" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
+            <state relative-caret-position="162">
+              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -114,8 +127,11 @@
       <find>boot</find>
       <find>ha/api.js?hl=pl&quot;</find>
       <find>u'</find>
-      <find>get_pages_no_for_url</find>
       <find>get_ads_url_by_category_address</find>
+      <find>get_pages_no_for_url</find>
+      <find>hosts</find>
+      <find>get_all_urls_for_category</find>
+      <find>threading</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -130,9 +146,10 @@
         <option value="$PROJECT_DIR$/../OlxChatBot/venv/application/dto_objexts.py" />
         <option value="$PROJECT_DIR$/../OlxChatBot/venv/application/dto_objects.py" />
         <option value="$PROJECT_DIR$/../OlxChatBot/venv/application/olx_api_client.py" />
-        <option value="$PROJECT_DIR$/../OlxChatBot/venv/application/ad_data_layer.py" />
         <option value="$PROJECT_DIR$/../OlxChatBot/venv/application/ad_downloader.py" />
         <option value="$PROJECT_DIR$/../OlxChatBot/venv/application/main.py" />
+        <option value="$PROJECT_DIR$/../OlxChatBot/venv/application/ad_data_layer.py" />
+        <option value="$PROJECT_DIR$/../OlxChatBot/venv/application/main_queue" />
       </list>
     </option>
   </component>
@@ -209,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.main_queue">
     <configuration name="AdDownloder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OlxChatBot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,6 +265,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="main_queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OlxChatBot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../OlxChatBot/venv/application" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../OlxChatBot/venv/application/main_queue" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="olx_api_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OlxChatBot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,9 +307,11 @@
       <item itemvalue="Python.AdDownloder" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.olx_api_client" />
+      <item itemvalue="Python.main_queue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main_queue" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.olx_api_client" />
         <item itemvalue="Python.AdDownloder" />
@@ -298,12 +336,12 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.37060702" side_tool="true" visible="true" weight="0.31442785" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.371672" side_tool="true" visible="true" weight="0.31442785" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.629393" visible="true" weight="0.31442785" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.628328" visible="true" weight="0.31442785" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.491453" weight="0.32820514" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49041533" weight="0.3273632" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992743" visible="true" weight="0.18636848" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
@@ -433,16 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../OlxChatBot/venv/application/ad_downloader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../OlxChatBot/venv/application/olx_api_client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -450,22 +478,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../OlxChatBot/venv/application/ad_data_layer.py">
+    <entry file="file://$PROJECT_DIR$/../OlxChatBot/venv/application/ad_downloader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="65" column="63" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
+        <state relative-caret-position="260">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../OlxChatBot/venv/application/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state>
+          <caret selection-end-line="2" selection-end-column="20" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OlxChatBot/venv/application/ad_data_layer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OlxChatBot/venv/application/main_queue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
